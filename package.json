@@ -1,0 +1,17 @@
+{
+  "name": "mongo-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start:dev": "npx tsx watch ./src/index.ts"
+  },
+  "author": "@srpatos",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "mongodb": "^6.1.0",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
+}
