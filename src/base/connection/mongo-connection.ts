@@ -4,6 +4,7 @@ import Client from "./mongo-client"
 export const connect = async (props: IConnection): Promise<void> => {
     await Client.connect({
         url: props.url,
+        dbName: props.dbName,
         callback: props.callback,
         options: props.options
     });

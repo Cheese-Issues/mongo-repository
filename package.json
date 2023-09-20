@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "npx tsx watch ./src/index.ts"
   },
-  "author": "@srpatos",
+  "author": "@CheeseIssues",
   "license": "MIT",
   "dependencies": {
     "@types/mongodb": "^4.0.7",
